@@ -1,0 +1,24 @@
+server:
+  port: 8889
+
+logging:
+  file:
+    name: ./log/TCP.log
+  level:
+    com.hunau: info
+
+spring:
+#  main:
+#    web-application-type: none
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.77.248.85:3306/netty_server?serverTimezone=Asia/Shanghai&useSSL=true
+    username: root
+    password: hunauIOT2018+.
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/*Mapper.xml
+  type-aliases-package: com.hunau.entity
+  configuration:
+    map-underscore-to-camel-case: true

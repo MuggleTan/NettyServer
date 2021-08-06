@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hunau.mapper.InfoMapper">
+    <resultMap id="InfoMapper" type="Info" autoMapping="true">
+        <id property="" column=""/>
+        <result property="" column=""/>
+    </resultMap>
+
+    <select id="selectInfoList" resultType="info" parameterType="info">
+        select *
+        from info
+        <where>
+            <if test="info.sno !='' and info.sno != null">sno like concat('%',#{info.sno},'%')</if>
+            <if test="info.sip !='' and info.sip != null">and sip = #{info.sip}</if>
+            <if test="info.type !='' and info.type != null">and type = #{info.type}</if>
+        </where>
+        order by id desc
+        limit #{page}, #{size}
+    </select>
+
+    <select id="countInfo" resultType="int">
+        select count(id)
+        from info
+    </select>
+
+    <insert id="addInfo" parameterType="Info">
+        insert into info(id, sno, sip, rip, success, type, sub_time)
+        values (#{id}, #{sno}, #{sip}, #{rip}, #{success}, #{type}, sysdate())
+    </insert>
+</mapper>

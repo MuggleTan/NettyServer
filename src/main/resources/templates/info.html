@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>TCP/UDP提交信息</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" th:href="@{/layui/css/layui.css}">
+    <link rel="stylesheet" th:href="@{/layui/css/modules/laydate/default/laydate.css}">
+</head>
+<body>
+<h3 style="color: red;text-align: center">服务器IP地址：120.77.248.85，UDP端口：10998，TCP端口：10999<br>以【#,学号,SIM卡IP地址,$】格式发送，服务端回复OK则表示成功，可在页面查到数据</h3>
+<form class="layui-form" lay-submit="" lay-filter="search" style="margin-top: 10px">
+    <div class="layui-inline">
+        <label class="layui-form-label" for="sno">学号</label>
+        <div class="layui-input-inline" style="width: 120px">
+            <input type="text" id="sno" name="sno" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-inline">
+        <label class="layui-form-label" for="sip">提交IP</label>
+        <div class="layui-input-inline">
+            <input type="text" id="sip" name="sip" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-inline">
+        <label class="layui-form-label" for="type">类型</label>
+        <div class="layui-input-inline" style="width: 120px">
+            <select name="type" id="type">
+                <option value=>请选择类型</option>
+                <option value=1>UDP</option>
+                <option value=2>TCP</option>
+            </select>
+        </div>
+    </div>
+<!--    <div class="layui-inline">-->
+<!--        <label class="layui-form-label" for="success">是否正确</label>-->
+<!--        <div class="layui-input-inline" style="width: 120px">-->
+<!--            <select name="success" id="success">-->
+<!--                <option value=>请选择类型</option>-->
+<!--                <option value="1">正确</option>-->
+<!--                <option value="0">错误</option>-->
+<!--            </select>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="layui-inline">
+        <div class="layui-input-inline">
+            <button class="layui-btn layui-btn-radius" id="searchBtn" lay-submit lay-filter="searchBtn"
+                    data-type="reload">
+                <i class="layui-icon layui-icon-search"></i> 查询
+            </button>
+            <button id="reset" type="reset" class="layui-btn layui-btn-primary layui-btn-radius" lay-submit
+                    lay-filter="clearBtn">
+                重置
+            </button>
+        </div>
+    </div>
+</form>
+<table id="infoList" lay-filter="infoList"></table>
+</body>
+<script th:src="@{/layui/layui.js}"></script>
+
+<script th:src="@{/js/info.js}" th:inline="javascript"></script>
+</html>

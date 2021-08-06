@@ -1,0 +1,170 @@
+2021-06-04 12:14:36.399  INFO 1124 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 1124 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 12:14:36.415  INFO 1124 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 12:14:38.136  INFO 1124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 12:14:38.151  INFO 1124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 12:14:38.151  INFO 1124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 12:14:38.292  INFO 1124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 12:14:38.292  INFO 1124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1784 ms
+2021-06-04 12:14:38.839  INFO 1124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 12:14:39.785  INFO 1124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 12:14:39.801  INFO 1124 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 4.191 seconds (JVM running for 5.302)
+2021-06-04 12:14:40.884  INFO 1124 --- [main] com.hunau.netty.udp.UdpServer            : UDP server port: 10998
+2021-06-04 12:14:40.884  INFO 1124 --- [main] com.hunau.netty.udp.UdpServer            : UDP server started...
+2021-06-04 12:14:57.746  INFO 18808 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 18808 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 12:14:57.762  INFO 18808 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 12:14:58.627  INFO 18808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 12:14:58.627  INFO 18808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 12:14:58.627  INFO 18808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 12:14:58.705  INFO 18808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 12:14:58.705  INFO 18808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2021-06-04 12:14:59.048  INFO 18808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 12:14:59.254  INFO 18808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 12:14:59.254  INFO 18808 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 1.981 seconds (JVM running for 3.244)
+2021-06-04 12:14:59.986  INFO 18808 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 12:14:59.986  INFO 18808 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 12:15:52.371  INFO 18808 --- [http-nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 12:15:52.371  INFO 18808 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 12:15:52.377  INFO 18808 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-06-04 12:15:53.257  INFO 18808 --- [http-nio-8889-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 12:15:54.458  INFO 18808 --- [http-nio-8889-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 12:16:46.819  INFO 9452 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 9452 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 12:16:46.834  INFO 9452 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 12:16:47.765  INFO 9452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 12:16:47.765  INFO 9452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 12:16:47.765  INFO 9452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 12:16:47.830  INFO 9452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 12:16:47.830  INFO 9452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2021-06-04 12:16:48.198  INFO 9452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 12:16:48.391  INFO 9452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 12:16:48.400  INFO 9452 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 1.966 seconds (JVM running for 3.335)
+2021-06-04 12:16:48.558  INFO 9452 --- [http-nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 12:16:48.559  INFO 9452 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 12:16:48.564  INFO 9452 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-06-04 12:16:48.642  INFO 9452 --- [http-nio-8889-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 12:16:49.151  INFO 9452 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 12:16:49.152  INFO 9452 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 12:16:49.687  INFO 9452 --- [http-nio-8889-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 12:17:16.028  INFO 9008 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 9008 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 12:17:16.028  INFO 9008 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 12:17:16.996  INFO 9008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 12:17:17.004  INFO 9008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 12:17:17.004  INFO 9008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 12:17:17.072  INFO 9008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 12:17:17.072  INFO 9008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 997 ms
+2021-06-04 12:17:17.446  INFO 9008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 12:17:17.649  INFO 9008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 12:17:17.660  INFO 9008 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 2.007 seconds (JVM running for 3.087)
+2021-06-04 12:17:17.773  INFO 9008 --- [http-nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 12:17:17.773  INFO 9008 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-04 12:17:17.781  INFO 9008 --- [http-nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-06-04 12:17:17.871  INFO 9008 --- [http-nio-8889-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 12:17:18.462  INFO 9008 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 12:17:18.462  INFO 9008 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 12:17:18.924  INFO 9008 --- [http-nio-8889-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 13:09:24.354  INFO 13100 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 13100 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:09:24.354  INFO 13100 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:09:25.864  INFO 13100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 13:09:25.879  INFO 13100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 13:09:25.879  INFO 13100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 13:09:26.020  INFO 13100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 13:09:26.020  INFO 13100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1619 ms
+2021-06-04 13:09:26.548  INFO 13100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 13:09:27.095  INFO 13100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 13:09:27.110  INFO 13100 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 3.359 seconds (JVM running for 4.535)
+2021-06-04 13:09:28.055  INFO 13100 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 13:09:28.055  INFO 13100 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 13:17:52.444  INFO 19412 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 19412 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:17:52.459  INFO 19412 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:17:53.430  INFO 19412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 13:17:53.445  INFO 19412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 13:17:53.445  INFO 19412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 13:17:53.555  INFO 19412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 13:17:53.555  INFO 19412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2021-06-04 13:17:53.945  INFO 19412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 13:17:54.133  INFO 19412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 13:17:54.133  INFO 19412 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 2.122 seconds (JVM running for 2.982)
+2021-06-04 13:17:54.836  INFO 19412 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 13:17:54.836  INFO 19412 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 13:18:05.221  INFO 19412 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : client【127.0.0.1】connected......
+2021-06-04 13:18:22.047  INFO 19412 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : received data from【127.0.0.1】==>#,201841882310,20.10.10.10,$
+
+2021-06-04 13:19:49.087  INFO 8576 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 8576 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:19:49.103  INFO 8576 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:19:50.042  INFO 8576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 13:19:50.057  INFO 8576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 13:19:50.057  INFO 8576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 13:19:50.135  INFO 8576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 13:19:50.135  INFO 8576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 986 ms
+2021-06-04 13:19:50.510  INFO 8576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 13:19:50.713  INFO 8576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 13:19:50.713  INFO 8576 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 2.036 seconds (JVM running for 3.093)
+2021-06-04 13:19:51.355  INFO 8576 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 13:19:51.355  INFO 8576 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 13:19:52.618  INFO 8576 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : client【127.0.0.1】connected......
+2021-06-04 13:19:54.469  INFO 8576 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : received data from【127.0.0.1】==>#,201841882310,20.10.10.10,$
+
+2021-06-04 13:21:44.035  INFO 16376 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 16376 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:21:44.051  INFO 16376 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:21:45.207  INFO 16376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 13:21:45.207  INFO 16376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 13:21:45.207  INFO 16376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 13:21:45.285  INFO 16376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 13:21:45.285  INFO 16376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1172 ms
+2021-06-04 13:21:45.677  INFO 16376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 13:21:45.864  INFO 16376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 13:21:45.864  INFO 16376 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 2.277 seconds (JVM running for 3.183)
+2021-06-04 13:21:46.537  INFO 16376 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 13:21:46.537  INFO 16376 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 13:21:50.333  INFO 16376 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : client【127.0.0.1】connected......
+2021-06-04 13:21:53.823  INFO 16376 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : received data from【127.0.0.1】==>#,201841882310,20.10.10.10,$
+
+2021-06-04 13:22:35.128  INFO 11720 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 11720 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:22:35.128  INFO 11720 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:22:36.036  INFO 11720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-06-04 13:22:36.051  INFO 11720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-04 13:22:36.051  INFO 11720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-04 13:22:36.114  INFO 11720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-04 13:22:36.114  INFO 11720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2021-06-04 13:22:36.490  INFO 11720 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 13:22:36.677  INFO 11720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-06-04 13:22:36.693  INFO 11720 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 2.01 seconds (JVM running for 2.828)
+2021-06-04 13:22:37.323  INFO 11720 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server port: 10999
+2021-06-04 13:22:37.339  INFO 11720 --- [main] com.hunau.netty.tcp.TcpServer            : TCP server started...
+2021-06-04 13:22:41.743  INFO 11720 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : client【127.0.0.1】connected......
+2021-06-04 13:22:42.670  INFO 11720 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : received data from【127.0.0.1】==>#,201841882310,20.10.10.10,$
+
+2021-06-04 13:23:19.924  INFO 11720 --- [nioEventLoopGroup-3-1] com.hunau.netty.tcp.TcpServerHandler     : received data from【127.0.0.1】==>#,201841882310,20.10.10.10,$
+2021-06-04 13:23:19.940  INFO 11720 --- [nioEventLoopGroup-3-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 13:23:20.830  INFO 11720 --- [nioEventLoopGroup-3-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-04 13:32:08.078  INFO 16260 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 16260 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:32:08.093  INFO 16260 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:32:09.202  INFO 16260 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 1.577 seconds (JVM running for 2.48)
+2021-06-04 13:32:09.891  INFO 16260 --- [main] com.hunau.netty.udp.UdpServer            : UDP server port: 10998
+2021-06-04 13:32:09.891  INFO 16260 --- [main] com.hunau.netty.udp.UdpServer            : UDP server started...
+2021-06-04 13:32:44.197  WARN 16260 --- [nioEventLoopGroup-2-1] i.n.u.concurrent.AbstractEventExecutor   : A task raised an exception. Task: com.hunau.netty.udp.UdpServerHandler$$Lambda$370/893308743@50d1f422
+
+io.netty.util.IllegalReferenceCountException: refCnt: 0
+	at io.netty.buffer.AbstractByteBuf.ensureAccessible(AbstractByteBuf.java:1508) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1432) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.buffer.UnsafeByteBufUtil.getBytes(UnsafeByteBufUtil.java:481) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.getBytes(PooledUnsafeDirectByteBuf.java:127) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.buffer.ByteBufUtil.decodeString(ByteBufUtil.java:833) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.buffer.AbstractByteBuf.toString(AbstractByteBuf.java:1261) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.buffer.AbstractByteBuf.toString(AbstractByteBuf.java:1256) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at com.hunau.netty.udp.UdpServerHandler.lambda$channelRead0$0(UdpServerHandler.java:46) ~[classes/:na]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2021-06-04 13:33:30.198  INFO 1476 --- [main] com.hunau.NettyServerApplication         : Starting NettyServerApplication on DESKTOP-TanXY with PID 1476 (D:\WorkSpace\myCode\springboot\NettyServer\target\classes started by TanXY in D:\WorkSpace\myCode\springboot\NettyServer)
+2021-06-04 13:33:30.198  INFO 1476 --- [main] com.hunau.NettyServerApplication         : No active profile set, falling back to default profiles: default
+2021-06-04 13:33:31.260  INFO 1476 --- [main] com.hunau.NettyServerApplication         : Started NettyServerApplication in 1.565 seconds (JVM running for 2.725)
+2021-06-04 13:33:31.854  INFO 1476 --- [main] com.hunau.netty.udp.UdpServer            : UDP server port: 10998
+2021-06-04 13:33:31.869  INFO 1476 --- [main] com.hunau.netty.udp.UdpServer            : UDP server started...
+2021-06-04 13:33:35.011  INFO 1476 --- [nioEventLoopGroup-2-1] com.hunau.netty.udp.UdpServerHandler     : received data from【127.0.0.1】==>#,201841882310,20.10.10.10,$
+2021-06-04 13:33:35.026  INFO 1476 --- [nioEventLoopGroup-2-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-04 13:33:35.808  INFO 1476 --- [nioEventLoopGroup-2-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
